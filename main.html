@@ -11,13 +11,14 @@
 	<form>
 		<div>
 			<label for="name">Name*</label>
-			<input type="text"required id=name>
+			<input type="text"required id=name placeholder="Name">
 		</div>
 		<div>
-			<label for="email">Email*</label>
-			<input type="email" required id=email>
+			<label for="email">E-mail*</label>
+			<input type="email" required id=email placeholder="Email">
 		</div>	
 		<div>
+			<label>Gender*</label>
 			<label for="male">Male</label>
 			<input type="radio"id="male"name="gender">
 			<label for="female">Female</label>
@@ -26,7 +27,7 @@
 			<input type="radio"id="other"name="gender">
 		</div>
 		<div>
-			
+			<label>Laptop Brands:</label>
 			<label for="brand1">Apple</label>
 			<input type="checkbox"id="brand1"name="Laptop Brands">
 			<label for="brand2">Asus</label>
@@ -35,21 +36,24 @@
 			<input type="checkbox"id="brand3"name="Laptop Brands">
 		</div>
 		<div>
-			<label for="age">Age</label>
-			<input type="number"required id="age">
+			<label for="age">Age*</label>
+			<input type="number"required id="age"placeholder="Age">
 		</div>
 		<div>
-			<label for="dob">DOB</label>
+			<label for="dob">DOB*</label>
 			<input type="date"required id="dob">
 		</div>
 		<div>
-			<label for="password">Password</label>
-			<input type="date"required id="password">
+			<label for="password">Password*</label>
+			<input type="number"required id="password"placeholder="Password">
 		</div>
 		<div>
-			<input type="submit"> 
+			<label for="portfolio">Portfolio</label>
+			<input type="url"required id="portfolio"placeholder="Enter your URL">
 		</div>
-		<input type="url"placeholder="URL"id="portfolio">
+		<input type="reset"id="reset">
+			<input type="submit"id="submit"> 
+		</div>
 	</form>
 	
     <script type="text/javascript" src="./script.js">
